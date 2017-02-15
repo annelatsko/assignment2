@@ -1,0 +1,53 @@
+<!doctype html>
+
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles/main.css">
+		<script src="js/index.js"></script>
+	</head>
+
+	<body>
+		<h1>Nicknames in the Trump Administration</h1>
+		<form name="nickname_form" action="success.html" onsubmit="return validate_form()">
+			<div class="question">
+				Breitbart writer <a href="http://www.breitbart.com/milo/2016/04/27/dear-nevertrump-time-get-behind-daddy/">Milo Yiannopoulos</a> has called Pres. Trump "daddy."<br> What is your opinion of this nickname? You must select 1.
+			</div><br>
+			<div class="response">
+				<input type="radio" name="daddy" value="ivanka"> I, too, call the president Daddy because I'm Ivanka Trump.<br>
+				<input type="radio" name="daddy" value="trump"> I, too, call the president Daddy but just him.<br>
+				<input type="radio" name="daddy" value="everyone"> I, too, call the president Daddy but I call my S/O, my actual dad, and my best friend daddy.<br>
+				<input type="radio" name="daddy" value="hate_milo"> I disagree with the use of this nickname because I hate Milo and everything he does, including his decision to frost the tips of his hair.<br>
+				<input type="radio" name="daddy" value="hate_name"> I disagree with the use of this nickname because I'm a babyboomer.<br>
+			</div>
+			<br>
+			<div class="question">There have been an astonishing number of nicknames for Pres. Trump that we can ask you about here since they don't contain racial slurs.<br> Please check all of the nicknames that you use on a daily basis or that, now that you have heard them, plan on using on a daily basis. You must check at least 1.</div><br>
+			<div class="response">	
+				<input type="checkbox" name="nicknames" value="jesus">Cheeto Jesus<br>
+				<input type="checkbox" name="nicknames" value="creamsicle">Angry Creamsicle<br>
+				<input type="checkbox" name="nicknames" value="vulgarian">Short-fingered Vulgarian<br>
+				<input type="checkbox" name="nicknames" value="clownstick">Fuckface Von Clownstick<br>
+				<input type="checkbox" name="nicknames" value="shitgibbon">Fascist, Loofa-Faced Shitgibbon<br>
+				<input type="checkbox" name="nicknames" value="carnival">Fascist Carnival Barker<br>
+				<input type="checkbox" name="nicknames" value="capslock">Sentient Caps-Lock Button<br>
+				<input type="checkbox" name="nicknames" value="burning">Rome Burning in Human Form<br>
+				<input type="checkbox" name="nicknames" value="ivanka">Racist Clementine<br>
+				<input type="checkbox" name="nicknames" value="ivanka">Mango Mussolini<br>
+				<input type="checkbox" name="nicknames" value="ivanka">Decomposing Jack-o-Lantern<br>
+			</div>
+			<br>
+			<div class="question">Which terrorist attack do you feel worse about?</div><br>
+			<div class="response">
+				<select>
+				  <option>Bowling Green Massacre</option>
+				  <option>Atlanta Terror Attack</option>
+				</select><br>
+			</div>
+			<br>
+			<div class="question">Please include your favorite nickname.</div><br>
+			<div class="response">
+				Nickname: <input type="text" name="user_generated" size=50><br>
+			</div>		
+			<br><input type="submit" value="Submit" onsubmit="return false">
+		</form>
+	</body>
+</html>
